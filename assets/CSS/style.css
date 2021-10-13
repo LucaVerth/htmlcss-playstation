@@ -1,5 +1,13 @@
+/* GLOBAL */
+.content-container{
+  width: 90%;
+  margin: 0 auto;
+  background-color:teal;
+}
+
 /* HEADER */
 header{
+  width: 100%;
   height: 100px;
   background-color: aquamarine;
 }
@@ -21,7 +29,14 @@ header{
   background-color:red;
   min-height: 850px;
 }
-.game-row{
+.bot-jumbo{
   background-color:green;
   min-height: 200px;
+}
+.jumbo-game-card{
+  background-color:blue;
+  min-height: 150px;
+  border-radius: 20px;
+  margin-top: 10px;
+  text-align: center;
 }
