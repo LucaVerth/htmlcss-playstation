@@ -52,28 +52,23 @@ header{
 .title-box {
   background-color:red
 }
-
 .console-text {
   width: 50%;
   background-color:green;
   min-height: 200px;
 }
-
 .console-img {
   width: 50%;
   background-color: purple;
 }
-
 .ps-items{
   width: calc(100% / 5);
   /* padding: 0 50px; */
 }
-
 .ps-items .u-card{
   min-height: 200px;
   position: unset;
 }
-
 .jumbotron2{
   background-color:red;
   min-height: 550px;
