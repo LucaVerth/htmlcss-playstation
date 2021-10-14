@@ -1,75 +1,117 @@
 /* GLOBAL */
-.content-container{
-  width: 90%;
-  margin: 0 auto;
-  background-color:teal;
+.section{
+  margin-top: 100px;
 }
-
-/* TUTTE LE ALTEZZE ATTUALI SONO PLACEHOLDER */
 
 /* HEADER */
 header{
-  width: 100%;
   height: 100px;
   background-color: aquamarine;
 }
-
 .top-nav{
-  height:50px;
-  background-color:black;
+  background-color: #000;
+  height: 30px;
+  text-align: end;
 }
-
-.top-nav .sony-logo a{
-  text-decoration:none;
-  color: #fff;
-  font-weight: bold;
-  font-size: 2rem;
+.top-nav .sony-logo{
+  width: 100px;
+  height: 20px;
+}
+.bottom-nav{
+  height: 70px;
+  background-color: #fff;
+}
+.lv_navbar{
+  height: 70px;
 }
 
 /* jumbotron */
-.jumbotron {
-  background-color:red;
-  min-height: 550px;
+.jumbotron{
+  margin-top: 100px;
+  background-image: url(../img/jumbo-bg.png);
+  background-position: center;
+  background-size: cover;
 }
-.bot-jumbo{
-  background-color:green;
-  min-height: 200px;
+.jumbo_img{
+  width: 250px
 }
+.lv_row_jumbo{
+  min-height: 500px;
+  padding-bottom: 50px;
+}
+
+/* jumbo bottom section */
 .jumbo-game-card{
-  background-color:blue;
-  min-height: 150px;
-  border-radius: 20px;
   margin-top: 10px;
   text-align: center;
 }
+.jumbo-game-card.active{
+  border-radius: 20px;
+  border: 3px solid #0061CB;
+}
+.jumbo-game-card img{
+  width: 100%;
+  border-radius: 20px;
+  padding: 5px;
+}
 
-/* MAIN */
-.section{
-  background-color: lightblue;
-  min-height: 200px;
-  border: 1px solid black;
+/* motto section */
+.play_motto{
+  color: #0061CB;
 }
-.title-box {
-  background-color:red
+
+.lv_img_play5{
+  width: 100%;
 }
-.console-text {
-  width: 50%;
-  background-color:green;
-  min-height: 200px;
+#play5{
+  width: 100%;
 }
-.console-img {
-  width: 50%;
-  background-color: purple;
+
+/* ps5 items */
+.lv_card{
+  text-align: center;
+  border: none;
+  cursor: pointer;
 }
-.ps-items{
-  width: calc(100% / 5);
-  /* padding: 0 50px; */
+.lv_card img{
+  width: 100%;
+  margin: 0 auto;
 }
-.ps-items .u-card{
-  min-height: 200px;
-  position: unset;
+
+/* middle jumbotron */
+.jumbotron_middle{
+  margin-top: 30px;
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+  background-position: center;
+  background-size: cover;
 }
-.jumbotron2{
-  background-color:red;
-  min-height: 550px;
+.jumbo_img_middle{
+  width: 250px
 }
+.lv_row_jumbo_middle{
+  min-height: 500px;
+  padding-bottom: 50px;
+}
+
+/* new games section */
+.new-game-title, .lv_card_games{
+  color: #fff;
+}
+.lv_card_games{
+  border: none;
+  cursor: pointer;
+}
+.lv_card_games img{
+  border-radius: 20px;
+}
+
+/* ps plus section */
+#logo_plus{
+  width: 60%;
+}
+#ps_plus_free{
+  height: 50%;
+}
+
+
+/* RESPONSIVE */
