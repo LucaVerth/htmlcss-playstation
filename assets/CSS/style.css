@@ -60,7 +60,6 @@ header{
 .play_motto{
   color: #0061CB;
 }
-
 .lv_img_play5{
   width: 100%;
 }
@@ -119,6 +118,31 @@ header{
 .game_sales_card img{
   width: 100%;
 }
+
+/* social tab */
+.row_social img{
+  width: 100%;
+  padding: 15px 0;
+}
+
+/* FOOTER */
+#lng_globe{
+  width: 20px;
+}
+#logo_sie{
+  width: 150px;
+}
+.region_menu{
+  font-size: 0.9rem
+}
+.links_footer dl dd a{
+  color: #fff;
+  text-decoration: none;
+}
+.links_footer{
+  margin: 0 20px;
+}
+
 
 
 /* RESPONSIVE */
