@@ -2,8 +2,32 @@
 .section{
   margin-top: 100px;
 }
-
-/* HEADER */
+/* BUTTONS ---------------------------------------------------------------- */
+.rnd-btn{
+  border-radius: 20px;
+}
+.grey-blue-btn{
+  color: #0041E7;
+  background-color: #D9DADC;
+}
+.red-out-btn:hover{
+  outline: 2px solid #DC3545;
+  outline-offset: 3px;
+}
+.blue-out-btn:hover{
+  outline: 2px solid #0D6EFD;
+  outline-offset: 3px;
+}
+.grey-out-btn:hover{
+  outline: 2px solid #D9DADC;
+  outline-offset: 3px;
+  color: #0041E7;
+}
+.white-out-btn:hover{
+  outline: 2px solid #fff;
+  outline-offset: 3px;
+}
+/* HEADER ----------------------------------------------------------------*/
 header{
   height: 100px;
 }
@@ -23,12 +47,11 @@ header{
 .lv_navbar{
   height: 70px;
 }
-
-/* jumbotron */
+/* jumbotron -------------------------------------------------------------*/
 .jumbotron{
   margin-top: 100px;
   background-image: url(../img/jumbo-bg.png);
-  background-position: center;
+  background-position: center top;
   background-size: cover;
 }
 .jumbo_img{
@@ -38,8 +61,7 @@ header{
   min-height: 500px;
   padding-bottom: 50px;
 }
-
-/* jumbo bottom section */
+/* jumbo bottom section -------------------------------------------------------------*/
 .jumbo-game-card{
   margin-top: 10px;
   text-align: center;
@@ -57,7 +79,6 @@ header{
   transition: all 0.3s ease-in-out;
   box-shadow: 0 15px 35px black;
   opacity: 1;
-  border: 4px solid #0061CB;
 }
 .jumbo-game-card img{
   width: 100%;
@@ -65,7 +86,7 @@ header{
   border-radius: inherit;
 }
 
-/* motto section */
+/* motto section -------------------------------------------------------------*/
 .play_motto{
   color: #0061CB;
 }
@@ -75,8 +96,7 @@ header{
 #play5{
   width: 100%;
 }
-
-/* ps5 items */
+/* ps5 items -------------------------------------------------------------*/
 .lv_card{
   text-align: center;
   border: none;
@@ -96,10 +116,8 @@ header{
 .lv_card:hover{
   opacity: 1;
   transition: all 0.2s ease-in-out;
-  border-bottom: 4px solid#0061CB;
 }
-
-/* middle jumbotron */
+/* middle jumbotron -------------------------------------------------------------*/
 .jumbotron_middle{
   margin-top: 30px;
   background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
@@ -113,8 +131,7 @@ header{
   min-height: 500px;
   padding-bottom: 50px;
 }
-
-/* new games section */
+/* new games section -------------------------------------------------------------*/
 .new-game-title, .lv_card_games{
   color: #fff;
 }
@@ -125,8 +142,10 @@ header{
 .lv_card_games img{
   border-radius: 20px;
 }
-
-/* ps plus section */
+/* ps plus section -------------------------------------------------------------*/
+.ps_plus{
+  background-color: #BEBCBB;
+}
 #logo_plus{
   width: 60%;
 }
@@ -134,19 +153,23 @@ header{
   width: 100%;
   height: 100%;
 }
-
-/* sales section */
+/* sales section -------------------------------------------------------------*/
 .game_sales_card img{
   width: 100%;
+  border-radius: 15px;
 }
-
-/* social tab */
+.game_sales_card:hover{
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+/* social tab -------------------------------------------------------------*/
 .row_social img{
-  width: 100%;
+  max-width: 100%;
+  border-radius: 30%;
   padding: 15px 0;
+  cursor: pointer;
 }
-
-/* FOOTER */
+/* FOOTER -------------------------------------------------------------*/
 #lng_globe{
   width: 20px;
 }
@@ -163,9 +186,11 @@ header{
   color: #fff;
   text-decoration: none;
 }
+.links_footer dl dd a:hover{
+  text-decoration: underline;
+}
 
-
-/* RESPONSIVE */
+/* RESPONSIVE -------------------------------------------------------------*/
 @media all and (min-width:576px) {
   #ps_plus_free{
     width: 80%;
