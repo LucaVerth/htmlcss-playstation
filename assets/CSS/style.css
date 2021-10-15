@@ -135,9 +135,13 @@ header{
 .new-game-title, .lv_card_games{
   color: #fff;
 }
+.new-games{
+  background-color: #000;
+}
 .lv_card_games{
   border: none;
   cursor: pointer;
+  background-color: #000;
 }
 .lv_card_games img{
   border-radius: 20px;
@@ -162,6 +166,10 @@ header{
   transform: scale(1.05);
   transition: all 0.3s ease-in-out;
 }
+/* ps now -------------------------------------------------------------*/
+.ps_now{
+  background-color: #161C3B;
+}
 /* social tab -------------------------------------------------------------*/
 .row_social img{
   max-width: 100%;
@@ -170,6 +178,9 @@ header{
   cursor: pointer;
 }
 /* FOOTER -------------------------------------------------------------*/
+.lv_footer{
+  background-color: #00439C;
+}
 #lng_globe{
   width: 20px;
 }
@@ -192,9 +203,6 @@ header{
 
 /* RESPONSIVE -------------------------------------------------------------*/
 @media all and (min-width:576px) {
-  #ps_plus_free{
-    width: 80%;
-  }
   #logo_plus{
     width: 60%;
   }
