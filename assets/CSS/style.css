@@ -10,6 +10,10 @@
   color: #0041E7;
   background-color: #D9DADC;
 }
+.black-out-btn:hover{
+  outline: 2px solid #000;
+  outline-offset: 3px;
+}
 .red-out-btn:hover{
   outline: 2px solid #DC3545;
   outline-offset: 3px;
@@ -46,6 +50,9 @@ header{
 }
 .lv_navbar{
   height: 70px;
+}
+.search_lens{
+  cursor: pointer;
 }
 /* jumbotron -------------------------------------------------------------*/
 .jumbotron{
@@ -179,7 +186,11 @@ header{
 }
 /* FOOTER -------------------------------------------------------------*/
 .lv_footer{
+  padding-top: 50px;
   background-color: #00439C;
+}
+#ps_logo_footer{
+  width: 120px;
 }
 #lng_globe{
   width: 20px;
